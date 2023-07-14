@@ -12,4 +12,4 @@ This board is licensed under CC BY 4.0 and runs [QMK Firmware](https://qmk.fm/).
 ![Render Back](Showcase/Render-B.png)
 
 ## Changelog
-* 14/07/2023: Initial public upload of V1.0.
+* 14/07/2023: Initial public upload of V1.0. Changed PTS645 LCSC part number.

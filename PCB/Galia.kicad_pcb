@@ -129,6 +129,7 @@
     (at 90 43.7 180)
     (descr "FH34SRJ-20S-0.5SH(50)-1")
     (tags "Connector")
+    (property "LCSC" "C2802370")
     (property "Sheetfile" "Galia.kicad_sch")
     (property "Sheetname" "")
     (property "ki_description" "Generic connectable mounting pin connector, single row, 01x20, script generated (kicad-library-utils/schlib/autogen/connector/)")

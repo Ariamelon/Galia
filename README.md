@@ -8,8 +8,7 @@ This board is licensed under CC BY 4.0 and runs [QMK Firmware](https://qmk.fm/).
 * Has two buttons for reset functionality, one of which is connected to ground for earthing the chassis.
 * 20-pin ribbon cable interface capable of handling up to 3A power.
 
-![Render Front](Showcase/Render-F.png)
-![Render Back](Showcase/Render-B.png)
+![Render](Showcase/Render.png)
 
 ## Changelog
 * 18/07/2023: Changed JST connector back to 20 pin FFC. Centered connector.

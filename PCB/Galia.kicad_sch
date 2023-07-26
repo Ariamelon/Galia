@@ -1676,6 +1676,43 @@
     )
   )
 
+  (symbol (lib_id "Mechanical:MountingHole") (at 175.26 55.88 0) (unit 1)
+    (in_bom no) (on_board yes) (dnp no)
+    (uuid 3f285d82-a68c-4cd3-8c01-e7d9e41fdb09)
+    (property "Reference" "H5" (at 177.8 54.7116 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "Tooling Hole" (at 177.8 57.023 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "Galia:JLC Tooling Hole" (at 175.26 55.88 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 175.26 55.88 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "LCSC" "" (at 175.26 55.88 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (instances
+      (project "Galia"
+        (path "/1215eee5-143d-4cdd-be21-2ea99cea4a06"
+          (reference "H5") (unit 1)
+        )
+      )
+      (project "Honeydew"
+        (path "/534caec7-cf60-4f90-b1ed-42c9d445ef0f"
+          (reference "H3") (unit 1)
+        )
+      )
+      (project "Crenshaw"
+        (path "/e15cb478-ed36-448a-aade-2c525821f2a0"
+          (reference "H4") (unit 1)
+        )
+      )
+    )
+  )
+
   (symbol (lib_id "power:VBUS") (at 160.02 20.32 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 46b925be-7ffe-4c6b-9725-6b24ecc44676)
@@ -1767,7 +1804,7 @@
     (property "Reference" "SW1" (at 129.54 17.78 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "PTS45" (at 129.54 20.32 0)
+    (property "Value" "PTS645" (at 129.54 20.32 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "Galia:SW_SPST_PTS645" (at 129.54 17.78 0)
@@ -1793,6 +1830,43 @@
       (project "Honeydew"
         (path "/534caec7-cf60-4f90-b1ed-42c9d445ef0f/d133c1c6-f35d-4b98-81a0-3607ab1d2de1"
           (reference "SW68") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Mechanical:MountingHole") (at 175.26 45.72 0) (unit 1)
+    (in_bom no) (on_board yes) (dnp no)
+    (uuid 777815c1-0b79-4279-be35-188bfc656625)
+    (property "Reference" "H3" (at 177.8 44.5516 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "Tooling Hole" (at 177.8 46.863 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "Galia:JLC Tooling Hole" (at 175.26 45.72 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 175.26 45.72 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "LCSC" "" (at 175.26 45.72 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (instances
+      (project "Galia"
+        (path "/1215eee5-143d-4cdd-be21-2ea99cea4a06"
+          (reference "H3") (unit 1)
+        )
+      )
+      (project "Honeydew"
+        (path "/534caec7-cf60-4f90-b1ed-42c9d445ef0f"
+          (reference "H1") (unit 1)
+        )
+      )
+      (project "Crenshaw"
+        (path "/e15cb478-ed36-448a-aade-2c525821f2a0"
+          (reference "H2") (unit 1)
         )
       )
     )
@@ -1834,6 +1908,43 @@
         )
         (path "/534caec7-cf60-4f90-b1ed-42c9d445ef0f/03fe79d8-f43d-4879-be7c-5a505456d728"
           (reference "#PWR041") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Mechanical:MountingHole") (at 175.26 50.8 0) (unit 1)
+    (in_bom no) (on_board yes) (dnp no)
+    (uuid 7e3c7669-7a6a-40d8-9daa-fbcee70f1b32)
+    (property "Reference" "H4" (at 177.8 49.6316 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "Tooling Hole" (at 177.8 51.943 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "Galia:JLC Tooling Hole" (at 175.26 50.8 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 175.26 50.8 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "LCSC" "" (at 175.26 50.8 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (instances
+      (project "Galia"
+        (path "/1215eee5-143d-4cdd-be21-2ea99cea4a06"
+          (reference "H4") (unit 1)
+        )
+      )
+      (project "Honeydew"
+        (path "/534caec7-cf60-4f90-b1ed-42c9d445ef0f"
+          (reference "H2") (unit 1)
+        )
+      )
+      (project "Crenshaw"
+        (path "/e15cb478-ed36-448a-aade-2c525821f2a0"
+          (reference "H3") (unit 1)
         )
       )
     )
@@ -1958,7 +2069,7 @@
     (property "Reference" "SW2" (at 129.54 30.48 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "PTS45" (at 129.54 33.02 0)
+    (property "Value" "PTS645" (at 129.54 33.02 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "Galia:SW_SPST_PTS645" (at 129.54 30.48 0)

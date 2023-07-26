@@ -12,6 +12,7 @@ This board is licensed under CC BY 4.0.
 ![Render](Showcase/Render.png)
 
 ## Changelog
+* 26/07/2023: Fixed position of button and mounting holes. Added JLC tooling holes.
 * 25/07/2023: Changed 8 pin JST SH connector to 6 pin. Changed orientation of SH connectors for easier routing of wires. Added Ariamelon logo. Added PCB cutouts to allow for buttons to be snapped off.
 * 21/07/2023: Changed 20 pin FFC to 7 pin and 8 pin JST SH connector. Fixed orientation.
 * 18/07/2023: Changed JST connector back to 20 pin FFC. Centered connector.
